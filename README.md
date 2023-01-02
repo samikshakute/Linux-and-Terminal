@@ -98,14 +98,37 @@ For example: `cat .bashrc` will display the contents of the .bashrc file.
     - `echo "message" > file-name` - adds message in a file.
     
    - System Commands
-    - `sudo` - used for administrative permissions.
-    - `df` - used to check the system disk space.
+      - `sudo` - used for administrative permissions.
+      - `df` - used to check the system disk space.
         - `df -m` - in megabytes.
         - `df -hg` - in gigabytes.
-    - `du` - shows disk usage statistics.
+      - `du` - shows disk usage statistics.
+      
     
-  - Permissions
-    - `find . -perm 777` - shows all files that have read, write and execute permissions.
+  - Permissions<br>
+    There are three types of permissions: **read, write and execute** and there are three types of owners: **user, group and others.**
+    - `find . -perm 777` - shows all files that have read, write and execute permissions. <br>
+    `chmod` command is use to change file modes or permissions.
+    - `chmod u=rwx, g=rx, o=r <file-name>` - changes the user, group and others permission of a file. <br>
+    - We can also use octal numbers to change permissions. `chmod 777 <file-name>` - sets read, write and execute permissions to all owners. Here the number 777 is divided into 3 categories - user, group, others. 4 stands for read, 2 stands for write, 1 stands for execute and 0 stands for no permission. So, if we want to set read and write permissions to all the owners i.e. 4 + 2 = 5 --> `chmod 555 <file-name>` 
+    - `chown root <file-name>` - changes the file owner to root.<br>
+    root is a super user account used for administrative purposes and has the highest number of access rights in the system.
+    - `find . -perm 777` - displays files that have permission to read, write and execute.
+    
+  - Search operations
+    - `find . -type f -name "*.txt" -exec rm -rf {} +` - Here {} are parameters. 
+    - `grep` - global regular expression print. It allows us to search for text within our files and is case sensitive.
+    - `grep -V` - version of grep
+    - `grep "text" <file-name>` - searching for particular text in a file.
+    - `grep -w "text" <file-name>' - displays complete sentence/word.
+    - `grep 
+    
+    
+    
+    
+    
+    
+    
     
     
 7. 
