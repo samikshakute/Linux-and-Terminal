@@ -1,3 +1,12 @@
+#### What is Linux?
+Just like we have Windows and Mac, Linux is an operating system. It is free and open-source. Current linux systems contain graphical tools made specifically for an administrator. However, being able to use the interface in the command line mode is crucial for a number of reasons:
+
+- Administration is done by scripts.
+- Aduiting and Debugging is much easier as you can easily look through the logs to track every single action you performed.
+- Remote administration is done on the command line with an SSH terminal.
+- It providers more flexibility than GUIs (Graphical user interface).
+- Thus, learning these commands allows you to connect to a linux terminal and manage resources and file.
+
 #### What is Terminal Emulator?
 It is basically a program/application that will allow us to use the terminal in a graphical environment. </br>
 Using terminal we can control our OS.
@@ -21,7 +30,8 @@ A process is an instace of a running command.
     - If we want to modify the PATH variable we can edit the .profile file using `vim .profile` command. Each path is separated by a colon(:).
 
 #### What are aliases?
-Aliases are shortcuts for long commands.
+Aliases are shortcuts for long commands. To set aliases only for a session(not permanent), we can use the command: `alias <shortcut-name>=<command>`.<br>
+We can set our custom aliases permanently by editing the .bashrc file.
 
 #### Bash Files
 Whenever we open the terminal, some commands are automatically executed to automate tasks and it is depended on bash.
@@ -82,6 +92,13 @@ For example: `cat .bashrc` will display the contents of the .bashrc file.
     - `diff <file1-name> <file2-name>` - compares the contents of two file line by line and outputs the lines that do not match.
     - `locate <file-name>` - locates the file.
     - `locate ".txt"` - displays all the files that end with an extension of .txt
+    - `sort <file-name>` - sorts alphabetically.
+        - `-r` - sorts in reverse order
+        - `-f` - case insensitive sorting
+        - `-n` - returns result in numerical order
+    - Zipping files: `zip <zip-file-name> <file1-name> <file2-name>`
+    - Unzipping files: `unzip <file-name>`
+    - `cut -c 1-2 <file-name>` - shows first 2 columns of file.   
     
   - Environmental Variables:
     - `env` --> display environmental variables
@@ -103,6 +120,26 @@ For example: `cat .bashrc` will display the contents of the .bashrc file.
         - `df -m` - in megabytes.
         - `df -hg` - in gigabytes.
       - `du` - shows disk usage statistics.
+      - `top` - shows process running and CPU usage. 
+      - `kill <process-id>` - to kill the process.
+      - `uname` - shows kernel name.
+          - `-o` - shows type of kernel.
+          - `-a` - shows architechture.
+          - `-r` - shows kernel version
+      - `cat /etc/os-release` - shows all the info about the OS.
+      - `lscpu` - shows CPU details.
+      - `free` - shows free memory.
+        - `-h` - shows used and free memory.
+      - `vmstat` - shows virtual memory.
+      - `id` - shows all id's.
+          - `id <user-name>` - shows id of a particular user.
+      - `useradd <new-user-name>` - creates a new user
+      - `passwd <user-name>` - creates a password for user.
+      - `userdel <user-name>` - deletes a user.
+      - `getent group <user-name> - to check user exists or not
+      - `lsof` - shows all open files.
+          - `lsof -u <user-name>` - shows open files for particular user.
+      - `ps aux` - shows processess running.
       
     
   - Permissions<br>
@@ -119,20 +156,53 @@ For example: `cat .bashrc` will display the contents of the .bashrc file.
     - `find . -type f -name "*.txt" -exec rm -rf {} +` - Here {} are parameters. 
     - `grep` - global regular expression print. It allows us to search for text within our files and is case sensitive.
     - `grep -V` - version of grep
-    - `grep "text" <file-name>` - searching for particular text in a file.
-    - `grep -w "text" <file-name>' - displays complete sentence/word.
-    - `grep 
+    - `grep <keyword> <file-name>` - searching for particular keyword in a file.
+    - `grep -w <keyword> <file-name>' - displays complete word.
+    - `grep -i <keyword> <file-name>` - searches for keyword ignoring case.
+    - `grep -iw <keyword> <file-name>` - shows complete word ignoring case.
+    - `grep -n <keyword> <file-name>` - displays line number.
+    - `grep -win <keyword> <file-name>` - combination of all three tags.
+    - `grep -B 3 <keyword> <file-name>` - shows previous three lines that comes before particular keyword.
+    - grep -win <keyword> ./ .txt` - searching a keyword in all text files in current directory.
+    - `grep -rwin <keyword> .` - searching recursively in current directory.
+    - `grep -wirl <keyword> .` - displays all the files that have particular keyword.
+    - `grep -wirc <keyword> .` - displays count of files that contain particular keyword.
+    - `history` - shows history of all the commands we are using.
+    - Piping output of one command into other commands using grep:<br>
+      `history | grep "<command>"` - shows history of a particular command.
     
+  - What are jobs?
+  It is a process started by the shell. We can use `jobs` command to list the running jobs.
+  
+  - Networking commands
+    - `ping` - connects
+    - `wget <url>` - use to download files from the internet. 
+      - `wget -o <custom-file-name> <url> - to set custom name for the downloaded file.
+    - `hostname` - use to obtain the dns name.
+      - `-i` - shows IP address.
+    - `nslookup <url/IP address>` - to check IP address for particular domain.
+    - `netstat` - shows all active ports 
+    - `ifconfig` 
+    - `sed`
+    - `telnet`
+  
+  - Basic shortcuts
+      - `CTRL+A` - moves the cursor at the beginning.
+      - `CTRL+E` - moves the cursor to the end.
+      - `CTRL+K` - removes everything after the cursor.
+      - `TAB` is used to show possibilities.
+      - Running previous commands using history number/name: `!<history-number>` or `!<command-name>`
+      - `CTRL+L` or `clear` - used to clear terminal.
+      - We can run multiple commands using `;`<br>
+        Example: `git init;git add .;git commit -m "message";git push`
     
-    
-    
-    
-    
-    
-    
-    
-7. 
-8.
-9. `open $PATH`
-19. `man`
-
+  - Operators:  
+    - `&` - it will create a process in the background so that other commands can be running. We can check the background process using `ps` command and kill it if needed. Example: `ping google.com & facebook.com`
+    - `&&` - The command that is suceeding this operator will only execute when the previous one is finish executing. Example: `echo "first" && "second"`
+    - `||` - The command that is after the OR operator will only execute if the execution of previous command fails. Example: `echo "first" || echo "second"`
+    - `!` - can be use to delete all the files except one particular file.
+      Example: `rm -rf !(<file-name>)`
+    - `>>` - use to append contents. example: `"hey" >> <file-name>` file will contain hey.
+    - `>` - use to overwrite.
+    - `\` 
+    - `{}` - combination operator use to group commands.
