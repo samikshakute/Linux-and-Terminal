@@ -1,11 +1,11 @@
 #### What is Linux?
-Just like we have Windows and Mac, Linux is an operating system. It is free and open-source. Current linux systems contain graphical tools made specifically for an administrator. However, being able to use the interface in the command line mode is crucial for a number of reasons:
+Just like we have Windows and Mac, Linux is an operating system. It is free and open-source. Current Linux systems contain graphical tools made specifically for an administrator. However, being able to use the interface in the command line mode is crucial for a number of reasons:
 
 - Administration is done by scripts.
-- Aduiting and Debugging is much easier as you can easily look through the logs to track every single action you performed.
+- Auditing and Debugging is much easier as you can easily look through the logs to track every single action you performed.
 - Remote administration is done on the command line with an SSH terminal.
-- It providers more flexibility than GUIs (Graphical user interface).
-- Thus, learning these commands allows you to connect to a linux terminal and manage resources and file.
+- It provides more flexibility than GUIs (Graphical user interface).
+- Thus, learning these commands allows you to connect to a linux terminal and manage resources and files.
 
 #### What is Terminal Emulator?
 It is basically a program/application that will allow us to use the terminal in a graphical environment. </br>
@@ -21,8 +21,8 @@ When we open our terminal we can see something like this: samiksha@samiksha-Insp
 Here, samiksha is the computer's username and samiksha-Inspiron-5570 is the host name.
 
 #### What are environment variables?
-These are named values that are used to change how the commands and processess are executed. 
-A process is an instace of a running command.
+These are named values that are used to change how the commands and processes are executed. 
+A process is an instance of a running command.
   - Setting environment variables:
     - One way to set environmental variables in bash is using the `export` keyword </br>
     - For example: `export MY_PATH="Samiksha"`
@@ -34,13 +34,13 @@ Aliases are shortcuts for long commands. To set aliases only for a session(not p
 We can set our custom aliases permanently by editing the .bashrc file.
 
 #### Bash Files
-Whenever we open the terminal, some commands are automatically executed to automate tasks and it is depended on bash.
+Whenever we open the terminal, some commands are automatically executed to automate tasks and it is dependent on bash.
 Some of the bash files are .bashrc, .profile, .bash_history, etc. These files are located in the home directory. They are hidden and we can list them using the `ls -a` command. if we want to see what lies in these files we can use the `cat` command. </br>
 For example: `cat .bashrc` will display the contents of the .bashrc file.
  
 #### Bash commands
-   `whoami`
-   `whereis`
+    
+   
   - List Operations
     - `ls`
     - `ls -l` --> shows users, permissions, group owners, etc.
@@ -99,6 +99,7 @@ For example: `cat .bashrc` will display the contents of the .bashrc file.
     - Zipping files: `zip <zip-file-name> <file1-name> <file2-name>`
     - Unzipping files: `unzip <file-name>`
     - `cut -c 1-2 <file-name>` - shows first 2 columns of file.   
+    - `whereis` - locates and displays source of file.
     
   - Environmental Variables:
     - `env` --> display environmental variables
@@ -171,7 +172,7 @@ For example: `cat .bashrc` will display the contents of the .bashrc file.
     - Piping output of one command into other commands using grep:<br>
       `history | grep "<command>"` - shows history of a particular command.
     
-  - What are jobs?
+  - What are jobs?<br>
   It is a process started by the shell. We can use `jobs` command to list the running jobs.
   
   - Networking commands
@@ -198,7 +199,7 @@ For example: `cat .bashrc` will display the contents of the .bashrc file.
     
   - Operators:  
     - `&` - it will create a process in the background so that other commands can be running. We can check the background process using `ps` command and kill it if needed. Example: `ping google.com & facebook.com`
-    - `&&` - The command that is suceeding this operator will only execute when the previous one is finish executing. Example: `echo "first" && "second"`
+    - `&&` - The command that is succeeding this operator will only execute when the previous one is finish executing. Example: `echo "first" && "second"`
     - `||` - The command that is after the OR operator will only execute if the execution of previous command fails. Example: `echo "first" || echo "second"`
     - `!` - can be use to delete all the files except one particular file.
       Example: `rm -rf !(<file-name>)`
