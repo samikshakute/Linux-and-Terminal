@@ -1,11 +1,38 @@
 #### What is Linux?
-Just like we have Windows and Mac, Linux is an operating system. It is free and open-source. Current Linux systems contain graphical tools made specifically for an administrator. However, being able to use the interface in the command line mode is crucial for a number of reasons:
+Just like we have Windows and Mac, Linux is an operating system. It is free and open-source.
+Linux is a fully multi-tasking, multi-user operating system, with built-in networking and service processes known as daemons.
+Linux is developed by a loose confederation of developers from all over the world, collaborating over the Internet, with Linus Torvalds at the head. Technical skills and a desire to contribute are the only qualifications for participating.
+The Linux community is a far-reaching ecosystem of developers, vendors, and users that supports and advances the Linux operating system.
 
-- Administration is done by scripts.
-- Auditing and Debugging is much easier as you can easily look through the logs to track every single action you performed.
-- Remote administration is done on the command line with an SSH terminal.
-- It provides more flexibility than GUIs (Graphical user interface).
-- Thus, learning these commands allows you to connect to a linux terminal and manage resources and files.
+In Linux, files are stored in a hierarchical filesystem, with the top node of the system being the root or simply "/".
+
+**Note**: *Linux was inspired by UNIX, but it is not UNIX.*
+
+There are three major distribution families within Linux: Red Hat, SUSE, and Debian. 
+
+<img src="https://courses.edx.org/assets/courseware/v1/1d8c97abd237dcd44a5fe5464f6521ac/asset-v1:LinuxFoundationX+LFS101x+2T2021+type@asset+block/chapter01_The_Linux_Kernel_Distribution_Families_and_Individual_Distributions.png">
+
+Some of the common terms used in Linux are kernel, distribution, boot loader, service, filesystem, desktop environment, and command line.
+#### Kernel
+The kernel is considered the brain of the Linux operating system. It controls the hardware and makes the hardware interact with the applications. An example of a kernel is the Linux kernel. The most recent Linux kernel, along with past Linux kernels, can be found at the <a href="https://kernel.org/">kernel.org</a> web site.
+
+#### Distribution
+A distribution also known as Distros is a collection of programs combined with the Linux kernel to make up a Linux-based operating system. Some common examples of a distribution are Red Hat Enterprise Linux, Fedora, Ubuntu, and Gentoo.
+
+#### Boot Loader
+The boot loader, as the name implies, is a program that boots the operating system. Two examples of a boot loader are GRUB and ISOLINUX.
+
+#### Service
+A service is a program that runs as a background process. Some examples of the service are httpd, nfsd, ntpd, ftpd and named.
+
+#### File System
+A filesystem is a method for storing and organizing files in Linux. Some examples of filesystems are ext3, ext4, FAT, XFS and Btrfs.
+
+#### Desktop Environment
+The desktop environment is a graphical user interface on top of the operating system. GNOME, KDE, Xfce and Fluxbox are some examples of the desktop environment.
+
+#### Command line
+The command line is an interface for typing commands on top of the operating system.
 
 #### What is Terminal Emulator?
 It is basically a program/application that will allow us to use the terminal in a graphical environment. </br>
