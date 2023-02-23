@@ -221,6 +221,7 @@ For example: `cat .bashrc` will display the contents of the .bashrc file.
       - `TAB` is used to show possibilities.
       - Running previous commands using history number/name: `!<history-number>` or `!<command-name>`
       - `CTRL+L` or `clear` - used to clear terminal.
+      - `CTRL+L` (In Files) - used to access path of specific directory.
       - We can run multiple commands using `;`<br>
         Example: `git init;git add .;git commit -m "message";git push`
     
