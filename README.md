@@ -87,6 +87,8 @@ For example: `cat .bashrc` will display the contents of the .bashrc file.
       . means current directory and .. means previous directory
     - `cd ../folder-name` --> in the previous directory there is another directory.
     - `rm -r folder-name` - removes a folder permanently.
+    - `rmdir <dir-name>` - to remove an empty directory.
+      - `rmdir -rf <dir-name>` - removes a non-empty directory.
     - `find .` - find in current directory.
     - `find ..` - find in previous directory.
     - `find <folder-name>` - find in folder.
@@ -111,7 +113,7 @@ For example: `cat .bashrc` will display the contents of the .bashrc file.
     - `mv <file-name> <dir-name>` - moves file into directory.
     - `mv <file-name ../<newFile-name>` - move and create a new file in previous directory.
     - `rm <file-name>` - removes a file permanently. 
-    - `rm -f <file-name>` - forces deletion of file in certain scenarios when the file is unable to delete. For example, if the file is open, etc.
+      - `rm -f <file-name>` - forces deletion of file in certain scenarios when the file is unable to delete. For example, if the file is open, etc.
     - `head <file-name>` - displays the first 10 lines of file.
     - `head -n 4 <file-name>` - displays the first 4 lines of file.
     - `tail <file-name>` - displays the last 10 lines of file.
