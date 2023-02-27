@@ -135,7 +135,7 @@ For example: `cat .bashrc` will display the contents of the .bashrc file.
       - `cat > <file-name>` - creates a new file. `>` basically means where do you want to output.
       - `cat <file1-name> <file2-name>` - prints the contents of two files.
       - `cat <file1-name> <file2-name> > <file3-name>` - merges file1 and file2 contents in file3. 
-      - `cat <file1-name> | tr a-z A-Z > <file2-name>` - `|` is known as pipe which means output of the first file will act as an input to the second file.          The `tr` command is used to translate the contents of a file and `>` is used to redirect it into another file.
+      - `cat <file1-name> | tr a-z A-Z > <file2-name>` - `|` is known as pipe which helps in executing multiple commands simultaneously. The `tr` command is used to translate the contents of a file and `>` is used to redirect it into another file.
 
     - `less <file-name>` - displays the contents of a file one page at a time. We can switch to the next page by click the space bar.
     - `echo "message"` - prints message
