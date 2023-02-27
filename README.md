@@ -128,19 +128,22 @@ For example: `cat .bashrc` will display the contents of the .bashrc file.
     - `cut -c 1-2 <file-name>` - shows first 2 columns of file.   
     - `whereis` - locates and displays source of file.
     
+    - Concatenate (cat)
+      - `cat <file-name>` - displays contents of file.
+      - `cat > <file-name>` - creates a new file. `>` basically means where do you want to output.
+      - `cat <file1-name> <file2-name>` - prints the contents of two files.
+      - `cat <file1-name> <file2-name> > <file3-name>` - merges file1 and file2 contents in file3. 
+      - `cat <file1-name> | tr a-z A-Z > <file2-name>` - `|` is known as pipe which means output of the first file will act as an input to the second file.          The `tr` command is used to translate the contents of a file and `>` is used to redirect it into another file.
+
+    - `less <file-name>` - displays the contents of a file one page at a time. We can switch to the next page by click the space bar.
+    - `echo "message"` - prints message
+    - `echo "message" > file-name` - adds message in a file.
+    
   - Environmental Variables:
     - `env` --> display environmental variables
     - `$PATH` 
     
-  - Concatenate (cat)
-    - `cat <file-name>` - displays contents of file.
-    - `cat > <file-name>` - creates a new file. `>` basically means where do you want to output.
-    - `cat <file1-name> <file2-name>` - prints the contents of two files.
-    - `cat <file1-name> <file2-name> > <file3-name>` - merges file1 and file2 contents in file3. 
-    - `cat <file1-name> | tr a-z A-Z > <file2-name>` - `|` is known as pipe which means output of the first file will act as an input to the second file.          The `tr` command is used to translate the contents of a file and `>` is used to redirect it into another file.
-
-    - `echo "message"` - prints message
-    - `echo "message" > file-name` - adds message in a file.
+  
     
    - System Commands
       - `sudo` - used for administrative permissions.
