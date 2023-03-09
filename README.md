@@ -241,7 +241,3 @@ For example: `cat .bashrc` will display the contents of the .bashrc file.
     - `>` - use to overwrite.
     - `\` 
     - `{}` - combination operator use to group commands. </br>
-
-Check out the document for complete overview of Linux: 
-<a href="https://docs.google.com/document/d/1YSUw06TK98A8DBr-yQQG_QEswcrv1OerwAEKFZVXgnU/edit?usp=sharing">Fundamentals of Linux - Overview</a>
-</br>Suggest necessary changes if required.
