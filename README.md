@@ -129,6 +129,7 @@ For example: `cat .bashrc` will display the contents of the .bashrc file.
     - Unzipping files: `unzip <file-name>`
     - `cut -c 1-2 <file-name>` - shows first 2 columns of file.   
     - `whereis` - locates and displays source of file.
+    - `file <file/directory-name>` - To find the type of files/directories.
     
     - Concatenate (cat)
       - `cat <file-name>` - displays contents of file.
