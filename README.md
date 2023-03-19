@@ -4,20 +4,20 @@
 
 | Sr. No. | Topic                      
 |:-------:|:-------------:        
-| 1       | What is Linux?        
-| 2.      | Kernel                
-| 3.      | Distribution          
-| 4.      | Boot Loader           
-| 5.      | Service               
-| 6.      | File System           
-| 7.      | Desktop Environment   
-| 8.      | Command line          
-| 9.      | Terminal Emulator     
-| 10.     | Shell                 
-| 11.     | Username and Hostname                                                 
-| 12.     | Environment variables                                                                                     
-| 13.     | Aliases                                                                                                   
-| 14.     | Bash Files                                                                                                
+| 1       | <a href="https://github.com/samikshakute/Linux-and-Terminal/edit/main/README.md#what-is-linux">What is Linux?</a>        
+| 2.      | <a href="https://github.com/samikshakute/Linux-and-Terminal/edit/main/README.md#kernel">Kernel</a>                
+| 3.      | <a href="https://github.com/samikshakute/Linux-and-Terminal/edit/main/README.md#distribution">Distribution</a>          
+| 4.      | <a href="https://github.com/samikshakute/Linux-and-Terminal/tree/main#boot-loader">Boot Loader</a>           
+| 5.      | <a href="https://github.com/samikshakute/Linux-and-Terminal/tree/main#service">Service</a>               
+| 6.      | <a href="https://github.com/samikshakute/Linux-and-Terminal/tree/main#file-system">File System</a>           
+| 7.      | <a href="https://github.com/samikshakute/Linux-and-Terminal/tree/main#desktop-environment">Desktop Environment</a>   
+| 8.      | <a href="https://github.com/samikshakute/Linux-and-Terminal/tree/main#command-line">Command Line</a>          
+| 9.      | <a href="https://github.com/samikshakute/Linux-and-Terminal/tree/main#what-is-terminal-emulator">Terminal Emulator</a>     
+| 10.     | <a href="https://github.com/samikshakute/Linux-and-Terminal/tree/main#what-is-a-shell">Shell</a>                 
+| 11.     | <a href="https://github.com/samikshakute/Linux-and-Terminal/tree/main#username-and-hostname">Username and Hostname</a>                                                 
+| 12.     | <a href="https://github.com/samikshakute/Linux-and-Terminal/tree/main#what-are-environment-variables">Environment variables</a>                                                                                     
+| 13.     | <a href="https://github.com/samikshakute/Linux-and-Terminal/tree/main#what-are-aliases">Aliases</a>                                                                                                   
+| 14.     | <a href="https://github.com/samikshakute/Linux-and-Terminal/tree/main#bash-files">Bash Files</a>                                                                                                
 | 15.     | <a href="https://github.com/samikshakute/Linux-and-Terminal/tree/main/commands">Commands</a>              
 
 
