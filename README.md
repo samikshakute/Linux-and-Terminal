@@ -1,3 +1,29 @@
+# Linux and Terminal
+
+#### Table of Contents:
+
+| Sr. No. | Topic                      
+|:-------:|:-------------:        
+| 1       | What is Linux?        
+| 2.      | Kernel                
+| 3.      | Distribution          
+| 4.      | Boot Loader           
+| 5.      | Service               
+| 6.      | File System           
+| 7.      | Desktop Environment   
+| 8.      | Command line          
+| 9.      | Terminal Emulator     
+| 10.     | Shell                 
+| 11.     | Username and Hostname                                                 
+| 12.     | Environment variables                                                                                     
+| 13.     | Aliases                                                                                                   
+| 14.     | Bash Files                                                                                                
+| 15.     | <a href="https://github.com/samikshakute/Linux-and-Terminal/tree/main/commands">Commands</a>              
+
+
+
+
+
 #### What is Linux?
 Just like we have Windows and Mac, Linux is an operating system. It is free and open-source.
 Linux is a fully multi-tasking, multi-user operating system, with built-in networking and service processes known as daemons.
