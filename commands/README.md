@@ -153,15 +153,24 @@
     - `telnet`
   
   - Basic shortcuts
-      - `CTRL+A` - moves the cursor at the beginning.
-      - `CTRL+E` - moves the cursor to the end.
+      - `CTRL-L` - Clears the screen
+      - `CTRL-D` - Exits the current shell
+      - `CTRL-Z` - Puts the current process into suspended background
+      - `CTRL-C` - Kills the current process
+      - `CTRL-H` - Works the same as backspace
+      - `CTRL-A` - Goes to the beginning of the line
+      - `CTRL-W` - Deletes the word before the cursor
+      - `CTRL-U` - Deletes from beginning of line to cursor position
+      - `CTRL-E` - Goes to the end of the line
+      - `Tab` - Auto-completes files, directories, and binaries
       - `CTRL+K` - removes everything after the cursor.
-      - `TAB` is used to show possibilities.
+      - `CTRL+R` - backward search / reverse intelligent search.
       - Running previous commands using history number/name: `!<history-number>` or `!<command-name>`
       - `CTRL+L` or `clear` - used to clear terminal.
       - `CTRL+L` (In Files) - used to access path of specific directory.
       - We can run multiple commands using `;`<br>
         Example: `git init;git add .;git commit -m "message";git push`
+      - `!!(bang bang)` - executes previous command. 
     
   - Operators:  
     - `&` - it will create a process in the background so that other commands can be running. We can check the background process using `ps` command and kill it if needed. Example: `ping google.com & facebook.com`
