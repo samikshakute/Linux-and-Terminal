@@ -1,13 +1,13 @@
-#### Bash commands
+# Bash commands
     
-  - List Operations:
+  - <b> List Operations: </b>
     - `ls` - shows list of files and directories.
     - `ls -l` - shows users, permissions, group owners, etc.
     - `ls -a` - also shows hidden files.
     - `ls -al` - combination of ls -a and ls -l
     - `ls -R` - also shows files in sub directories. </br>
     
-  - Directory Operations:
+  - <b> Directory Operations: </b>
     - `open .` - opens current directory in files
     - `pwd` - displays the present working directory
     - `mkdir <dir-name>` - creates a new directory.
@@ -37,7 +37,7 @@
     - `find . -empty` - shows files that are empty.
     
     
-  - File Operations:
+  - <b> File Operations: </b>
     - `touch <file-name>` - creates a new file.
     - `touch <folder-name>/<file-name>` - creates a file in a folder.
     - `cp <file1-name> <file2-name>` - copy file1 contents in file2.
@@ -80,16 +80,16 @@
     - `wc <file>` - prints the number of lines, words and characters in file.
       - `-l` - prints just the number of lines.
 
-  - Environmental Variables:
+  - <b> Environmental Variables: </b>
     - `env` - displays environmental variables
     
-  - Text Editors:
+  - <b> Text Editors: </b>
     - `nano <file>` - start the editor and edit file.
     - `gedit <file>` - start the text editor and edit file.
     - `vi <file>` - start the editor and edit file.
     - `emacs <file>` - Start emacs and edit file.
   
-  - System Commands:
+  - <b> System Commands: </b>
       - `sudo` - used for administrative permissions.
       - `df` - used to check the system disk space.
         - `df -m` - in megabytes.
@@ -117,7 +117,7 @@
       - `ps aux` - shows processess running.
 
     
-  - Permissions:<br>
+  - <b> Permissions:<br> </b>
     There are three types of permissions: **read, write and execute** and there are three types of owners: **user, group and others.**
     - `find . -perm 777` - shows all files that have read, write and execute permissions. <br>
     `chmod` command is use to change file modes or permissions.
@@ -127,7 +127,7 @@
     root is a super user account used for administrative purposes and has the highest number of access rights in the system.
     - `find . -perm 777` - displays files that have permission to read, write and execute.
     
-  - Search operations:
+  - <b> Search operations: </b>
     - `find . -type f -name "*.txt" -exec rm -rf {} +` - Here {} are parameters. 
     - `grep` - global regular expression print. It allows us to search for text within our files and is case sensitive.
     - `grep -V` - version of grep
@@ -147,10 +147,10 @@
     - Piping output of one command into other commands using grep:<br>
       `history | grep "<command>"` - shows history of a particular command.
     
-  - What are jobs?<br>
+  - <b> What are jobs?<br> </b>
   It is a process started by the shell. We can use `jobs` command to list the running jobs.
   
-  - Network Operations:
+  - <b> Network Operations: </b>
     - `cat \etc\hosts` - displays the contents of /etc/hosts that contains the mappings of IP addresses to hostnames.
     - `host [options] <hostname or IP address>` - allows to query DNS records and retrieve information about domain names or IP addresses.
     - `ping <hostname>` - checks the status of the remote host.
@@ -166,7 +166,7 @@
     - `netstat` - shows all active ports 
     - `telnet`
   
-  - Basic shortcuts:
+  - <b> Basic shortcuts: </b>
       - `CTRL-L` - Clears the screen
       - `CTRL-D` - Exits the current shell
       - `CTRL-Z` - Puts the current process into suspended background
@@ -186,7 +186,7 @@
         Example: `git init;git add .;git commit -m "message";git push`
       - `!!(bang bang)` - executes previous command. 
     
-  - Operators:  
+  - <b> Operators: </b>
     - `&` - it will create a process in the background so that other commands can be running. We can check the background process using `ps` command and kill it if needed. Example: `ping google.com & facebook.com`
     - `&&` - The command that is succeeding this operator will only execute when the previous one is finish executing. Example: `echo "first" && "second"`
     - `||` - The command that is after the OR operator will only execute if the execution of previous command fails. Example: `echo "first" || echo "second"`
