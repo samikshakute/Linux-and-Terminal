@@ -16,12 +16,10 @@
 | 10.     | <a href="https://github.com/samikshakute/Linux-and-Terminal#what-is-a-shell">Shell</a>                 
 | 11.     | <a href="https://github.com/samikshakute/Linux-and-Terminal#username-and-hostname">Username and Hostname</a>                                                 
 | 12.     | <a href="https://github.com/samikshakute/Linux-and-Terminal#what-are-environment-variables">Environment variables</a>                                                                                     
-| 13.     | <a href="https://github.com/samikshakute/Linux-and-Terminal#what-are-aliases">Aliases</a>                                                                                                   
-| 14.     | <a href="https://github.com/samikshakute/Linux-and-Terminal#bash-files">Bash Files</a>                                                                                                
-| 15.     | <a href="https://github.com/samikshakute/Linux-and-Terminal/tree/main/commands">Commands</a>              
-
-
-
+| 13.     | <a href="https://github.com/samikshakute/Linux-and-Terminal#what-are-aliases">Aliases</a>                                                                                              
+| 14.     | <a href="https://github.com/samikshakute/Linux-and-Terminal#bash-files">Bash Files</a>                                                               
+| 15.     | <a href="https://github.com/samikshakute/Linux-and-Terminal/tree/main/commands">Commands</a>   
+| 16.     | <a href="https://github.com/samikshakute/Linux-and-Terminal/tree/main/Bash%20Scripting">Bash Scripting</a>              
 
 
 #### What is Linux?
