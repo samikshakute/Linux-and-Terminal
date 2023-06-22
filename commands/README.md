@@ -1,11 +1,11 @@
 #### Bash commands
     
   - List Operations:
-    - `ls`
-    - `ls -l` --> shows users, permissions, group owners, etc.
-    - `ls -a` --> also shows hidden files.
-    - `ls -al` -->combination of ls -a and ls -l
-    - `ls -R` --> also shows files in sub directories. </br>
+    - `ls` - shows list of files and directories.
+    - `ls -l` - shows users, permissions, group owners, etc.
+    - `ls -a` - also shows hidden files.
+    - `ls -al` - combination of ls -a and ls -l
+    - `ls -R` - also shows files in sub directories. </br>
     
   - Directory Operations:
     - `open .` - opens current directory in files
@@ -151,7 +151,7 @@
   It is a process started by the shell. We can use `jobs` command to list the running jobs.
   
   - Network Operations:
-    - `cat \etc\hosts`: displays the contents of /etc/hosts that contains the mappings of IP addresses to hostnames.
+    - `cat \etc\hosts` - displays the contents of /etc/hosts that contains the mappings of IP addresses to hostnames.
     - `host [options] <hostname or IP address>` - allows to query DNS records and retrieve information about domain names or IP addresses.
     - `ping <hostname>` - checks the status of the remote host.
     - `route [options] [command]` - used to view and manipulate routing table.
