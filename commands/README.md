@@ -194,4 +194,5 @@
       Example: `rm -rf !(<file-name>)`
     - `>>` - use to append contents. example: `"hey" >> <file-name>` file will contain hey.
     - `>` - use to overwrite.
+    - `\` - used to split long commands and execute them as single command.
     - `{}` - combination operator use to group commands. </br>
