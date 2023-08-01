@@ -14,13 +14,13 @@
 | 8.      | <a href="https://github.com/samikshakute/Linux-and-Terminal#command-line">Command Line</a>          
 | 9.      | <a href="https://github.com/samikshakute/Linux-and-Terminal#what-is-terminal-emulator">Terminal Emulator</a>     
 | 10.     | <a href="https://github.com/samikshakute/Linux-and-Terminal#what-is-a-shell">Shell</a>                 
-| 11.     | <a href="https://github.com/samikshakute/Linux-and-Terminal#username-and-hostname">Username and Hostname</a>                                                 
-| 12.     | <a href="https://github.com/samikshakute/Linux-and-Terminal#what-are-environment-variables">Environment variables</a>                                                                                     
-| 13.     | <a href="https://github.com/samikshakute/Linux-and-Terminal#what-are-aliases">Aliases</a>                                                                                              
-| 14.     | <a href="https://github.com/samikshakute/Linux-and-Terminal#bash-files">Bash Files</a>                                                               
-| 15.     | <a href="https://github.com/samikshakute/Linux-and-Terminal/tree/main/commands/README.md">Commands</a>   
-| 16.     | <a href="https://github.com/samikshakute/Linux-and-Terminal/tree/main/Bash%20Scripting">Bash Scripting</a>              
-
+| 11.     | <a href="https://github.com/samikshakute/Linux-and-Terminal#username-and-hostname">Username and Hostname</a>                      
+| 12.     | <a href="https://github.com/samikshakute/Linux-and-Terminal#what-are-environment-variables">Environment variables</a>             
+| 13.     | <a href="https://github.com/samikshakute/Linux-and-Terminal#what-are-aliases">Aliases</a>                                         
+| 14.     | <a href="https://github.com/samikshakute/Linux-and-Terminal#bash-files">Bash Files</a>
+| 15.     | <a href="https://github.com/samikshakute/Linux-and-Terminal#directories">Directories</a>
+| 16.     | <a href="https://github.com/samikshakute/Linux-and-Terminal/tree/main/commands/README.md">Commands</a>   
+| 17.     | <a href="https://github.com/samikshakute/Linux-and-Terminal/tree/main/Bash%20Scripting">Bash Scripting</a>              
 
 #### What is Linux?
 Just like we have Windows and Mac, Linux is an operating system. It is free and open-source.
@@ -88,3 +88,30 @@ We can set our custom aliases permanently by editing the .bashrc file.
 Whenever we open the terminal, some commands are automatically executed to automate tasks and it is dependent on bash.
 Some of the bash files are .bashrc, .profile, .bash_history, etc. These files are located in the home directory. They are hidden and we can list them using the `ls -a` command. if we want to see what lies in these files we can use the `cat` command. </br>
 For example: `cat .bashrc` will display the contents of the .bashrc file.
+
+#### Directories
+Following are the directories commonly found in the Linux file system:
+~~~
+/home # home directories and files from users
+/bin # user command binaries (cat, echo, etc.)
+/sbin # system binaries (need sudo)
+/usr # user 
+/usr/bin # primary executables that system needs in order to run
+/usr/local # programs installed just for that user
+/lib # when executables in /bin need additional library files in order to run
+/var # variable data (temporary)
+/var/log # logs are stored here usually for 30 days
+/var/log/syslog # system logs
+/var/cache # cached data from programs
+/opt # programs that install everything in one directory (not separated in /bin and /lib)
+/etc # system wide configurations
+/etc/fstab # controls how different filesystems are treated each time they are introduced to a system
+/etc/hosts # used to translate hostnames to IP-addresses. 
+/etc/hostname # name of the machine
+/etc/sudoers # who can act as the super user (sudo)
+/tmp # temporary location for running processes
+/boot # do not touch - for booting the system
+/dev # devices configurations like mouse and keyboard
+/media # devices like CD or usb drive auto mounts here
+/mnt # temporary mount points for additional filesystems
+~~~
