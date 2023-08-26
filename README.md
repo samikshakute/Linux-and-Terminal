@@ -4,23 +4,9 @@
 
 | Sr. No. | Topic                      
 |:-------:|:-------------:        
-| 1       | <a href="https://github.com/samikshakute/Linux-and-Terminal#what-is-linux">What is Linux?</a>        
-| 2.      | <a href="https://github.com/samikshakute/Linux-and-Terminal#kernel">Kernel</a>                
-| 3.      | <a href="https://github.com/samikshakute/Linux-and-Terminal#distribution">Distribution</a>          
-| 4.      | <a href="https://github.com/samikshakute/Linux-and-Terminal#boot-loader">Boot Loader</a>           
-| 5.      | <a href="https://github.com/samikshakute/Linux-and-Terminal#service">Service</a>               
-| 6.      | <a href="https://github.com/samikshakute/Linux-and-Terminal#file-system">File System</a>           
-| 7.      | <a href="https://github.com/samikshakute/Linux-and-Terminal#desktop-environment">Desktop Environment</a>   
-| 8.      | <a href="https://github.com/samikshakute/Linux-and-Terminal#command-line">Command Line</a>          
-| 9.      | <a href="https://github.com/samikshakute/Linux-and-Terminal#what-is-terminal-emulator">Terminal Emulator</a>     
-| 10.     | <a href="https://github.com/samikshakute/Linux-and-Terminal#what-is-a-shell">Shell</a>                 
-| 11.     | <a href="https://github.com/samikshakute/Linux-and-Terminal#username-and-hostname">Username and Hostname</a>                      
-| 12.     | <a href="https://github.com/samikshakute/Linux-and-Terminal#what-are-environment-variables">Environment variables</a>             
-| 13.     | <a href="https://github.com/samikshakute/Linux-and-Terminal#what-are-aliases">Aliases</a>                                         
-| 14.     | <a href="https://github.com/samikshakute/Linux-and-Terminal#bash-files">Bash Files</a>
-| 15.     | <a href="https://github.com/samikshakute/Linux-and-Terminal#directories">Directories</a>
-| 16.     | <a href="https://github.com/samikshakute/Linux-and-Terminal/tree/main/commands/README.md">Commands</a>   
-| 17.     | <a href="https://github.com/samikshakute/Linux-and-Terminal/tree/main/Bash%20Scripting">Bash Scripting</a>              
+| 1       | <a href="https://samikshakute.github.io/Linux-and-Terminal/">Documentation</a>      
+| 2.     | <a href="https://samikshakute.github.io/Linux-and-Terminal/commands/">Commands</a>   
+| 3.     | <a href="https://github.com/samikshakute/Linux-and-Terminal/tree/main/Bash%20Scripting">Bash Scripting</a>              
 
 #### What is Linux?
 Just like we have Windows and Mac, Linux is an operating system. It is free and open-source.
