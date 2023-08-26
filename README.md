@@ -1,4 +1,4 @@
-# Linux and Terminal
+# Linux and Terminal Documentation
 
 #### Table of Contents:
 
