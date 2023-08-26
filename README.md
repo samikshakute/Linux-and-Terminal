@@ -4,7 +4,7 @@
 
 | Sr. No. | Topic                      
 |:-------:|:-------------:        
-| 1       | <a href="https://samikshakute.github.io/Linux-and-Terminal/">Documentation</a>      
+| 1       | <a href="https://samikshakute.github.io/Linux-and-Terminal/#what-is-linux">Documentation</a>      
 | 2.     | <a href="https://samikshakute.github.io/Linux-and-Terminal/commands/">Commands</a>   
 | 3.     | <a href="https://github.com/samikshakute/Linux-and-Terminal/tree/main/Bash%20Scripting">Bash Scripting</a>              
 
